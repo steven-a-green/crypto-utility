@@ -18,6 +18,7 @@ get_os_info() {
         ;;
     esac
 }
+#TODO: will make a debian/rpm file if one of these platforms and then tarball the package
 
 # Color your script output
 colorize_output() {

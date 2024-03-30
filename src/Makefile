@@ -1,7 +1,7 @@
 # Define compiler
 CC=g++
 
-CFLAGS=-Wall -g -fsanitize=address
+CFLAGS=-std=c++20 -Wall -g -fsanitize=address
 INCLUDES=
 LFLAGS=
 #LIBS=-lcrypto
